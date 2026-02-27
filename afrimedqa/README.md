@@ -36,7 +36,7 @@ For MCQs with multiple correct answers (112 of 660), evaluation requires checkin
 
 ## Source
 
-Extracted from the AfriMed-QA v2 dataset using `scripts/extract_obgyn.ipynb`. The original dataset and paper are in `sources/`.
+Extracted from the AfriMed-QA v2 dataset using `scripts/extract_obgyn.py`. The original dataset and paper are in `sources/`.
 
 - Paper: [AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset](https://arxiv.org/abs/2411.15640) (Olatunji et al., 2024)
 - Dataset: [intronhealth/afrimedqa_v2](https://huggingface.co/datasets/intronhealth/afrimedqa_v2)
@@ -66,7 +66,7 @@ afrimedqa/
 │   ├── obgyn_mcq.tsv          (660 expert MCQs)
 │   └── obgyn_saq.tsv          (37 expert SAQs)
 ├── scripts/
-│   └── extract_obgyn.ipynb    (extraction & formatting code)
+│   └── extract_obgyn.py       (extraction & formatting code)
 └── sources/
     ├── 2411.15640v4.pdf                              (paper)
     ├── afrimedqa_original_readme.md                  (original dataset card)
