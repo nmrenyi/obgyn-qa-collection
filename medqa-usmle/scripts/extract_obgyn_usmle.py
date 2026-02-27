@@ -29,10 +29,10 @@ from pathlib import Path
 GEMINI_MODEL = "gemini-3-flash-preview"
 CHUNK_SIZE = 100  # questions per API call
 
-SCRIPT_DIR = Path(__file__).parent
-SOURCE_FILE = SCRIPT_DIR / "data_clean" / "questions" / "US" / "US_qbank.jsonl"
-PROGRESS_FILE = SCRIPT_DIR / "classifications.jsonl"
-DATA_DIR = SCRIPT_DIR / "data"
+PROJECT_DIR = Path(__file__).parent.parent
+SOURCE_FILE = PROJECT_DIR / "source" / "US_qbank.jsonl"
+PROGRESS_FILE = PROJECT_DIR / "scripts" / "classifications.jsonl"
+DATA_DIR = PROJECT_DIR / "data"
 OUTPUT_FILE = DATA_DIR / "obgyn_usmle.tsv"
 
 # ============================================================

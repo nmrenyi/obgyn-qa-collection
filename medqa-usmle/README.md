@@ -29,7 +29,7 @@ Feed `question` + `options_formatted` to an LLM, compare its letter choice again
 
 ## Source
 
-Extracted from the MedQA US question bank (14,369 questions) using `extract_obgyn_usmle.py`. Each question was classified by Gemini (`gemini-3-flash-preview`) into OBSTETRICS, GYNECOLOGY, REPRODUCTIVE_HEALTH, or NONE.
+Extracted from the MedQA US question bank (14,369 questions) using `scripts/extract_obgyn_usmle.py`. Each question was classified by Gemini (`gemini-3-flash-preview`) into OBSTETRICS, GYNECOLOGY, REPRODUCTIVE_HEALTH, or NONE.
 
 - Paper: [What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams](https://arxiv.org/abs/2009.13081) (Jin et al., 2020)
 - Repository: [jind11/MedQA](https://github.com/jind11/MedQA)
@@ -55,10 +55,11 @@ MIT (inherited from MedQA).
 medqa-usmle/
 ├── README.md
 ├── LICENSE
-├── 2009.13081v1.pdf                (original paper)
-├── extract_obgyn_usmle.py         (extraction script)
 ├── data/
 │   └── obgyn_usmle.tsv            (1,025 OBGYN MCQs)
+├── scripts/
+│   └── extract_obgyn_usmle.py     (extraction script)
 └── source/
+    ├── 2009.13081v1.pdf            (original paper)
     └── US_qbank.jsonl              (14,369 source questions)
 ```
