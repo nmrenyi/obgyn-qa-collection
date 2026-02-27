@@ -9,6 +9,7 @@ A curated collection of question-answer datasets in Obstetrics & Gynecology (OBG
 | [AfriMed-QA](afrimedqa/) | 660 MCQ + 37 SAQ | Expert exam questions | Pan-African (5 countries) | [Olatunji et al., 2024](https://arxiv.org/abs/2411.15640) |
 | [MedMCQA](medmcqa/) | 18,508 MCQ | Entrance exam questions | India | [Pal et al., 2022](https://proceedings.mlr.press/v174/pal22a) |
 | [Kenya Vignettes](vignette/) | 284 vignettes | Nurse-written clinical cases | Kenya | [Mwaniki et al., 2025](https://doi.org/10.1101/2025.10.25.25338798) |
+| [MedQA-USMLE](medqa-usmle/) | 1,025 MCQ | USMLE-style board questions | USA | [Jin et al., 2020](https://arxiv.org/abs/2009.13081) |
 | [Women's Health Benchmark](women-health-benchmark/) | 20 stumps | Expert prompts exposing LLM errors | Multi-national | [Gruber et al., 2025](https://arxiv.org/abs/2512.17028) |
 
 ### AfriMed-QA
@@ -22,6 +23,10 @@ Obstetrics & Gynecology (10,237) and Pediatrics (8,271) questions extracted from
 ### Kenya Vignettes
 
 284 clinical case scenarios related to maternal, neonatal, child, and sexual/reproductive health, written by 145 Kenyan nurses across three counties. Each vignette includes the nurse's clinical scenario and an expert clinician response. Classified into MATERNAL, NEONATAL, CHILD_HEALTH, and SRH categories using Gemini.
+
+### MedQA-USMLE
+
+OBGYN subset extracted from the MedQA dataset of USMLE-style clinical board questions. 1,025 questions classified into Obstetrics (497), Gynecology (395), and Reproductive Health (133) using Gemini. Each question includes answer options, the correct answer, and step metadata (Step 1/2/3).
 
 ### Women's Health Benchmark
 
