@@ -17,8 +17,8 @@ Category breakdown: **Obstetrics** (497), **Gynecology** (395), **Reproductive H
 | Column | Description |
 |--------|-------------|
 | `question` | The clinical vignette / question text |
-| `options_formatted` | Answer choices: `A. ... \| B. ... \| C. ... \| D. ...` |
-| `correct_letter` | Correct answer letter (A–F) |
+| `options_formatted` | Answer choices: `A. ... \| B. ... \| C. ... \| ...` (4–9 options) |
+| `correct_letter` | Correct answer letter (A–H) |
 | `answer` | Correct answer text |
 | `category` | `OBSTETRICS`, `GYNECOLOGY`, or `REPRODUCTIVE_HEALTH` |
 | `meta_info` | USMLE step: `step1` or `step2` |

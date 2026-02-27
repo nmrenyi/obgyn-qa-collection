@@ -8,7 +8,7 @@ An Obstetrics & Gynecology and Pediatrics subset extracted from [MedMCQA](https:
 |------|-----------|-------------|
 | `data/obgyn_mcq.tsv` | 18,508 | MCQs with answers (train + validation splits) |
 
-Covers two subjects: **Gynaecology & Obstetrics** (10,237) and **Pediatrics** (8,271). The test split (722 questions) is excluded because answers are withheld by the original authors.
+Covers two subjects: **Gynaecology & Obstetrics** (10,237) and **Pediatrics** (8,271). The test split is excluded because answers are withheld by the original authors.
 
 ## Data Format
 
@@ -22,7 +22,7 @@ Covers two subjects: **Gynaecology & Obstetrics** (10,237) and **Pediatrics** (8
 | `correct_letter` | Correct answer letter (A/B/C/D) |
 | `explanation` | Expert explanation of the answer (available for 96% of questions) |
 | `subject` | `Gynaecology & Obstetrics` or `Pediatrics` |
-| `topic` | Fine-grained medical topic |
+| `topic` | Fine-grained medical topic (available for ~49% of questions) |
 | `choice_type` | `single` or `multi` (single-option vs multi-suboption choices) |
 | `split` | Original split: `train` or `validation` |
 

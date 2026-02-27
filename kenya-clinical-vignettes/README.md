@@ -33,7 +33,7 @@ Extracted from the original study dataset (507 vignettes) using `scripts/extract
 
 ## License
 
-The original dataset is shared under the terms of the associated preprint. See the paper for details.
+MIT (inherited from the original study repository by Paul Mwaniki).
 
 ## Citation
 
@@ -50,7 +50,7 @@ The original dataset is shared under the terms of the associated preprint. See t
 ## Directory Structure
 
 ```
-vignette/
+kenya-clinical-vignettes/
 ├── README.md
 ├── LICENSE
 ├── data/

@@ -23,3 +23,9 @@ venv/
 .idea/
 *.swp
 *.swo
+
+# Claude Code
+.claude/
+
+# Intermediate files
+classifications.jsonl
