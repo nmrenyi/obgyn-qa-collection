@@ -26,7 +26,7 @@ Obstetrics & Gynecology (10,237) and Pediatrics (8,271) questions extracted from
 
 ### MedQA-USMLE
 
-OBGYN subset extracted from the MedQA dataset of USMLE-style clinical board questions. 1,025 questions classified into Obstetrics (497), Gynecology (395), and Reproductive Health (133) using Gemini. Each question includes answer options, the correct answer, and step metadata (Step 1/2/3).
+OBGYN subset extracted from the MedQA dataset of USMLE-style clinical board questions. 1,025 questions classified into Obstetrics (497), Gynecology (395), and Reproductive Health (133) using Gemini. Each question includes answer options, the correct answer, and USMLE step metadata (Step 1 or 2).
 
 ### Women's Health Benchmark
 
