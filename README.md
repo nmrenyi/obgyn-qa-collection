@@ -22,11 +22,11 @@ Obstetrics & Gynecology (10,237) and Pediatrics (8,271) questions extracted from
 
 ### Kenya Vignettes
 
-284 clinical case scenarios related to maternal, neonatal, child, and sexual/reproductive health, written by 145 Kenyan nurses across three counties. Each vignette includes the nurse's clinical scenario and an expert clinician response. Classified into MATERNAL, NEONATAL, CHILD_HEALTH, and SRH categories using Gemini.
+284 clinical case scenarios related to maternal, neonatal, child, and sexual/reproductive health, written by 145 Kenyan nurses across three counties. Each vignette includes the nurse's clinical scenario and an expert clinician response. Classified into MATERNAL, NEONATAL, CHILD_HEALTH, and SRH categories using `gemini-3-flash-preview`.
 
 ### MedQA-USMLE
 
-OBGYN subset extracted from the MedQA dataset of USMLE-style clinical board questions. 1,025 questions classified into Obstetrics (497), Gynecology (395), and Reproductive Health (133) using Gemini. Each question includes answer options, the correct answer, and USMLE step metadata (Step 1 or 2).
+OBGYN subset extracted from the MedQA dataset of USMLE-style clinical board questions. 1,025 questions classified into Obstetrics (497), Gynecology (395), and Reproductive Health (133) using `gemini-3-flash-preview`. Each question includes answer options, the correct answer, and USMLE step metadata (Step 1 or 2).
 
 ### Women's Health Benchmark
 
