@@ -4,6 +4,8 @@ A curated collection of question-answer datasets in Obstetrics & Gynecology (OBG
 
 ## Datasets
 
+MCQ = multiple-choice question, SAQ = short-answer question
+
 | Dataset | Items | Type | Region | Source |
 |---------|-------|------|--------|--------|
 | [AfriMed-QA](afrimedqa/) | 660 MCQ + 37 SAQ | Expert exam questions | Pan-African (5 countries) | [Olatunji et al., 2024](https://arxiv.org/abs/2411.15640) |
